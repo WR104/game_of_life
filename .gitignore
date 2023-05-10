@@ -4,3 +4,4 @@ Cargo.lock
 
 .idea
 www/package-lock.json
+www/dist
