@@ -1,9 +1,5 @@
 # Deploying Rust WebAssembly on Github Pages: A Step-by-Step Guide
 
-Rust is a programming language that's been gaining popularity in recent years, thanks in part to its powerful performance and memory safety features. Rust can also be compiled to WebAssembly (WASM), which allows it to run in the browser and interact with JavaScript code.
-
-In this tutorial, we'll walk through the steps to deploy Rust WebAssembly on Github Pages. Github Pages is a free web hosting service offered by Github, which allows you to host static websites directly from your Github repository. By the end of this tutorial, you'll have a Rust WASM project up and running on Github Pages.
-
 ## Prerequisites
 
 Before we get started, make sure you have the following tools installed:
@@ -138,7 +134,3 @@ npm run start
 ```
 
 to rebuild and redeploy your project. Remember to commit and push your changes to the gh-pages branch in order to update your website.
-
-## Conclusion
-
-In this tutorial, we've covered the steps required to deploy a Rust WebAssembly project on Github Pages. By following these steps, you should now have a working Rust WASM project hosted on Github Pages, which can be accessed by anyone with an internet connection. With the power of Rust and WebAssembly, you can create high-performance web applications that run directly in the browser. Happy coding!
