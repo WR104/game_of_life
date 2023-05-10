@@ -17,7 +17,7 @@ You'll also need a Github account, and a Github repository set up for your Rust 
 ## Step 1: Download Template
 
 You could download rust wasm template at here:
-https://github.com/sn99/wasm-template-rust/tree/master
+https://github.com/WR104/rust-wasm-template
 
 ## Step 2: git init
 
