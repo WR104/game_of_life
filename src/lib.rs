@@ -17,8 +17,15 @@ extern {
 }
 
 #[wasm_bindgen]
+extern "C" {
+    #[wasm_bindgen(js_namespace = console)]
+    fn log(s: &str);
+}
+
+#[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasm-template-rust!");
+    alert("Hello, world!");
+    log("Hello, world!");
 }
 
 #[cfg(test)]
