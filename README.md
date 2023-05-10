@@ -1,9 +1,3 @@
----
-title: Deploying wasm on Github Pages
-date: 2023-05-10 01:28:49
-tags: [tutorial]
----
-
 # Deploying Rust WebAssembly on Github Pages: A Step-by-Step Guide
 
 Rust is a programming language that's been gaining popularity in recent years, thanks in part to its powerful performance and memory safety features. Rust can also be compiled to WebAssembly (WASM), which allows it to run in the browser and interact with JavaScript code.
