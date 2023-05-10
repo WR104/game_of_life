@@ -58,6 +58,9 @@
 /******/ 					"__wbg_alert_52f1cbec5564b15c": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/wasm_template_rust_bg.js"].exports["__wbg_alert_52f1cbec5564b15c"](p0i32,p1i32);
 /******/ 					},
+/******/ 					"__wbg_log_d04c79f7a4c03ffe": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/wasm_template_rust_bg.js"].exports["__wbg_log_d04c79f7a4c03ffe"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/wasm_template_rust_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					}
@@ -162,7 +165,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/wasm_template_rust_bg.wasm":"1e0da06293ed11424a72"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/wasm_template_rust_bg.wasm":"23d56f7e42ee35be3f13"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
