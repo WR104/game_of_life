@@ -1,5 +1,5 @@
 [package]
-name = "wasm-template-rust"
+name = "rust-wasm-template"
 version = "0.1.0"
 authors = ["WR104"]
 edition = "2018"

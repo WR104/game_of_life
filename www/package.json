@@ -1,5 +1,5 @@
 {
-  "name": "wasm-template-rust",
+  "name": "rust-wasm-template",
   "version": "0.1.0",
   "description": "A template for no npm wasm-rust and github hosting",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WR104/game_of_life.git"
+    "url": "git+https://github.com/WR104/rust-wasm-template.git"
   },
   "keywords": [
     "webassembly",
@@ -24,7 +24,7 @@
   "author": "WR104",
   "license": "(MIT OR Apache-2.0)",
   "dependencies": {
-    "wasm-template-rust": "file:../pkg"
+    "rust-wasm-template": "file:../pkg"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.0",
